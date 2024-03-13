@@ -44,6 +44,7 @@ def test_tls_h2_support(server_name, check_ocsp):
     finally:
         conn.close()
 
+
 def test_no_redirect(server_name):
     conn = http.client.HTTPSConnection(server_name, context=ssl.create_default_context())
     conn.request("HEAD", "/", headers={"Connection": "close"})
