@@ -1,7 +1,7 @@
 # Check_TLS_H2
-XRAY-REALITY使用检查域名/探索Servername 是否满足 TLS1.3&H2 以及可选是否有加分OCSP
+TLS 1.3以及X25519证书检查
 
 使用方法：
 ```shell
-python3 Check_TLS_H2.py www.example.com --check-ocsp
+python3 Check_TLS_H2.py www.example.com
 ```
