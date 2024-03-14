@@ -5,7 +5,7 @@ import time
 import argparse
 
 #### 功能描述 ####
-# 本脚本用于测试域名的TLSv1.3和H2支持情况，并可选地检查OCSP Stapling支持情况。
+# TLS 1.3以及X25519证书检查
 # 脚本使用Python3编写，依赖于ssl、http.client、socket、argparse等模块。   
 #### 使用方法 ####
 # python3 Check_TLS_H2.py www.example.com --check-ocsp
